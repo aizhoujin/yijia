@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  background: #0A0D21;
+  height: 66px;
+  display: flex;
+  margin: 0;
+  padding: 0 !important;
+  border-bottom: 1px solid #102040;
+}
+
+.logo {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  /*background-image: url("../images/logo_01.jpg");*/
+  /*background-size: 100% 100%;*/
+  margin: 0;
+  padding: 0;
+}
+
+.header-tab {
+  height: 66px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.header-tab-item {
+  width: 25%;
+  text-align: center;
+  line-height: 66px;
+  font-family: PingFang-SC-Medium;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #4b92d0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.active {
+  background-image: url("../images/home-active_02.jpg");
+  background-size: 100% 100%;
+  color: #C9CEE1;
+}
+
+.login {
+  line-height: 66px;
+  justify-content: space-around;
+}
+
+.login img {
+  width: 40%;
+  border: 1px solid #0A0D21;
+}
+.login img:hover{
+  border: 1px solid #67737F;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  background: #08091B;
+}
+
+.left-section {
+  border: 1px solid #102040;
+  z-index: 999;
+  min-width: 240px;
+  min-height: 680px;
+  overflow: hidden;
+  background-image: url("../images/home-left_02.jpg");
+}
+
+.left-section-item {
+  width: 90%;
+  margin: 5%;
+  height: 55px;
+  display: flex;
+  background: url("../images/left_06.jpg");
+}
+
+.left-section-item img {
+  width: 70%;
+  margin: 20%;
+}
+
+.left-section-item-icon {
+  width: 50px;
+}
+
+.left-section-item-context {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.left-section-item-context p {
+  color: white;
+  font-size: 14px;
+  white-space:nowrap;
+  padding: 0;
+  margin: -2px;
+}
+
+.left-section-item-context p span {
+  font-size: 12px;
+  color: #85898e;
+
+}
+
+.leftactive {
+  background-image: url("../img/bg_sidebar1.png");
+  background-size: 100% 100%;
+}
+
+.leftChild{
+  width: 70%;
+  margin: 5% 10% 5% 24%;
+  list-style: none;
+  color: #80848A;
+  font-size: 13px;
+}
+
+.childActive{
+  background-image: url("../img/bg_sidebar2.png") !important;
+  background-size: 100% 100%;
+  color: white;
+}
+
+.leftChild li{
+  line-height: 25px;
+  padding-left: 25px;
+}
+.center-section img {
+  width: 100%;
+  margin: 0;
+}
+.center-section{
+  /*background-image: url("../images/context_03.jpg");*/
+  background-size: 100% 100%;
+  min-width: 240px;
+  padding: 0 !important;
+  position: relative;
+}
+.tabCenter{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  color: #C8CDE0;
+}
+.right-section {
+  min-height: 680px;
+  background-image: url("../images/right-background_03.jpg");
+  filter: glow(#ffffff 150);
+}
+
+.right-deta {
+  margin-top: 10px;
+  background-image: url("../images/时间选框_05.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #8892a4;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+}
+
+.right-deta div:nth-of-type(2) {
+  width: 60%;
+  overflow: hidden;
+}
+
+.right-progress{
+  padding: 5%;
+}
+
+.right-progress-name{
+  font-size: 14px;
+  color: white;
+}
+
+.right-progress-code{
+  font-size: 12px;
+  color: #85898e;
+}
+
+.circle{
+  padding:0 5%;
+  display: flex;
+}
+
+.circle h4{
+  color: white;
+}
+
+.circle h2{
+  color: white;
+  font-weight: bold;
+}
+
+.circle p{
+  margin-bottom: 5px;
+  color: #75787F;
+  font-size: 14px;
+}
+.nostandard{
+  width: 100%;
+  padding:0 5%;
+}
+.nostandard p{
+  color: #85898e;
+  font-size: 12px;
+  /*border-bottom: 1px solid #85898e;*/
+}
+
+.grand{
+  margin: 10px 0;
+  padding: 0 5%;
+}
+.grand-title{
+  font-size: 15px;
+  color: #CCCFD5;
+}
+.nostandardCause{
+  padding:0 5%;
+}
+
+.nostandardCause-main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nostandardCause-main div{
+  width: 32%;
+  text-align: center;
+}
+.nostandardCause-main div p{
+  color: #C0C0C6;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.nostandardCause-main div progress-bar{
+  /*margin-left: 50%;*/
+}
